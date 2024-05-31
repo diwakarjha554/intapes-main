@@ -23,7 +23,7 @@ const Logo: React.FC<LogoProps> = ({
     <div
         id="logo"
         onClick={handleLogoRoute}
-        className={`hover:cursor-pointer`}
+        className={`cursor-pointer`}
     >
         <span>{text}</span>
     </div>
