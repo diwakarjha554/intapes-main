@@ -7,6 +7,7 @@ import ClientOnly from "@/components/ui/ClientOnly";
 import Header from "@/components/Header/Header";
 
 const poppins = Poppins({
+  subsets: ['latin'],
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
 })
 
